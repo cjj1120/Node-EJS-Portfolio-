@@ -4,7 +4,9 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  }
+
+  font-family: 'Cormorant Garamond', serif;  
+}
  
 a {
   color: #00B7FF;
@@ -15,5 +17,29 @@ a {
       background: #1C2331!important;
   }
 }
-.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+.view,body,html{height:100%}
+.navbar{
+  background-color:rgba(0,0,0)
+}
+
+.cjj-photo{
+  width: 20%;
+  height:40%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.about-cjj-p{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-section{
+  background-color: rgba(194, 169, 227, 0.5);
+}
+
 
