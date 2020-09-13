@@ -7,39 +7,45 @@ body {
 
   font-family: 'Cormorant Garamond', serif;  
 }
- 
-a {
-  color: #00B7FF;
+
+/*bootstrap profile */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-@media (min-width: 800px) and (max-width: 850px) {
-  .navbar:not(.top-nav-collapse) {
-      background: #1C2331!important;
-  }
-}
-.view,body,html{height:100%}
-.navbar{
-  background-color:rgba(0,0,0)
-}
-
-.cjj-photo{
-  width: 20%;
-  height:40%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+  stroke-width: 1;
 }
 
-.about-cjj-p{
-  text-indent: 50px;
-  text-align: justify;
-  letter-spacing: 2px;
-  font-size: 20px;
-  font-weight: bold;
+.services-icon {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+bgc2, .vLine, .hLine {
+    background-color: #0F52BA;
 }
 
-.main-section{
-  background-color: rgba(194, 169, 227, 0.5);
+.quote-icon {
+  font-size: 40px;
+  margin-bottom: 20px;
 }
-
-
+.services-icon {
+    font-size: 60px;
+    margin-left: 2rem;
+}

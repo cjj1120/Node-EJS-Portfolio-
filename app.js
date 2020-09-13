@@ -30,6 +30,10 @@ app.get('/', (req, res) => {
   res.render('home')
 })
 
+app.get('/about', (req, res) => {
+  res.render('about')
+})
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -38,3 +42,6 @@ app.use(function(req, res, next) {
 
 
 module.exports = app;
+
+
+app.listen(3000);
